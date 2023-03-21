@@ -1,0 +1,406 @@
+
+.container{
+    margin: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.container, .leftContainer{
+    display: flex;
+}
+.leftContainer{
+    width: 65%;
+}
+.imageDiv{
+    width: 220px;
+    height: 90px;
+    margin-left: -35px;
+}
+.searchBar{
+    width: 95%;
+}
+
+#searchField{
+    width: 75%;
+    margin: auto;
+    padding: 15px;
+    background-color: #d3f9f4;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 5px;
+}
+#magnifier{
+    color: black;
+    margin-left: -40px;
+    border: 25px solid #6fc8bf;
+}
+.dataOnRightSide{
+    display: flex;
+    width: 55%;
+    /* height: 50px; */
+    margin: auto;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.rightContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 120%;
+    padding: 0px 10px;
+}
+.details{
+    width: 70%;
+    margin: auto;
+}
+.login{
+    width: 50%;
+    margin: auto;
+    font-weight: 700;
+}
+.cart{
+    width: 35%;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 90px;
+}
+.number, .myAccount, .cartLogo{
+    font-weight: bold;
+    font-size: 14px;
+}
+.customer, .signupLogin{
+    color: #409b92;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.navItems{
+    display: flex;
+    margin: 25px 50px;
+}
+.navItems div{
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 17px;
+}
+#babyNames{
+    color: red;
+}
+
+#collectionsName{
+    margin: 15px 40px;
+    font-size: 20px;
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 95%;
+    margin: auto;
+}
+
+.collectionsHeading{
+    display: flex;
+    justify-content: space-between;
+}
+.view{
+    margin-top: 20px;
+    margin-right: 70px;
+    color: rgb(141, 37, 37);
+    font-weight: bold;
+}
+.collections div{
+    width: 95%;
+}
+
+.collections div img{
+    width: 100%;
+}
+
+.collections div p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#babyBrands{
+    margin: 15px 40px;
+    font-size: 20px;
+}
+.popularBrands{
+    display: flex;
+    justify-content: space-between;
+}
+.viewBrands{
+    margin-top: 20px;
+    margin-right: 70px;
+    color: rgb(141, 37, 37);
+    font-weight: bold;
+}
+
+.brandsDiv{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        width: 95%;
+        margin: auto;
+}
+
+.brandsDiv div{
+    width: 100%;
+}
+.brandsDiv div .image1{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.brandsDiv div img{
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.craneDiv{
+    width: 95%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.craneDiv img{
+    width: 100%;
+}
+
+
+.bestSellers{
+    margin: 15px 40px;
+    font-size: 20px;
+}
+.sellers{
+    display: flex;
+    justify-content: space-between;
+}
+.viewBabyProducts{
+    margin-top: 20px;
+    margin-right: 70px;
+    color: rgb(141, 37, 37);
+    font-weight: bold;
+}
+.productsDiv{
+    width: 95%;
+    margin: auto;
+}
+
+.sliderDiv .productCard{
+    width: 5%;
+    margin: auto;
+}
+.productImage{
+    background-color: white;
+}
+.productImage img{
+    width: 90%;
+    border-radius: 50%;
+}
+
+.productCard p{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.productImage:hover{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+.sliderDiv .productCard:hover{
+    border-radius: 50%;
+}
+
+
+.topOffers{
+    margin: 15px 40px;
+    font-size: 20px;
+}
+.offersProducts{
+    display: flex;
+    justify-content: space-between;
+}
+.viewMoreBaby{
+    margin-top: 20px;
+    margin-right: 70px;
+    color: rgb(141, 37, 37);
+    font-weight: bold;
+}
+
+.babyProductParentDiv{
+    width: 95%;
+    margin: auto;
+}
+
+.offer{
+    background-color: red;
+    width: 5%;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.babyProductContainer .productCard{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    height: 450px;
+    cursor: pointer;
+}
+.babyProductContainer .productCard img{
+    width: 75%;
+    object-fit: contain;
+}
+
+.priceTag{
+    display: flex;
+}
+.originalPrice{
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.strikedPrice{
+    text-decoration: line-through;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+
+.blogPostsDiv{
+    display: flex;
+    width: 95%;
+    margin: auto;
+}
+.blogPost1{
+    width: 40%;
+}
+.blogPost1 img{
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.nameOfBlog{
+    margin-top: -10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.delivery{
+    text-decoration: underline;
+    font-size: 20px;
+    margin-left: 45%;
+    margin-top: 30px;
+}
+
+.deliveryLogos{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+.innerDeliveryLogos{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.companyLogo img{
+    width: 90%;
+    object-fit: cover;
+}
+
+.footerPart{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #89d9d1;
+}
+
+.footerPart1{
+    width: 25%;
+}
+.footerPart1 ul h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(51, 4, 51);
+}
+li{
+    list-style: none;
+    font-size: 14px;
+    line-height: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.footerPart2, .footerPart3, .footerPart4{
+    width: 20%;
+}
+.footerPart h4{
+    font-size: 16px;
+    color: rgb(79, 12, 79);
+}
+.footerPart5{
+    width: 25%;
+    padding: 5px;
+}
+.countryLogos{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.img1 img{
+    max-width: 180%;
+    height: auto;
+    vertical-align: top;
+    border-radius: 50%;
+}
+.img2 img{
+    max-width: 70%;
+    border-radius: 50%;
+    height: auto;
+}
+.img2:first-child{
+    margin-left: 90px;
+}
+.subscribeText{
+    margin-top: 20px;
+    color: rgb(100, 11, 100);
+}
+.emailBox{
+    width: 95%;
+    padding: 8px;
+    border: none;
+    color: black;
+    border-radius: 8px;
+}
+.btnPress{
+    width: 40%;
+    background-color: #660066;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.bottomFooter{
+    width: 90%;
+    margin: auto;
+    background-color: whitesmoke;
+    text-align: center;
+    line-height: 10px;
+}
+.copyRight, .finalText{
+    font-size: 13px;
+    color: black;
+}
+.finalText{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
